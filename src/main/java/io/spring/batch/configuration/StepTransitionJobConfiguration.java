@@ -3,6 +3,7 @@ package io.spring.batch.configuration;
 import org.springframework.batch.core.BatchStatus;
 import org.springframework.batch.core.Job;
 import org.springframework.batch.core.Step;
+import org.springframework.batch.core.configuration.annotation.EnableBatchProcessing;
 import org.springframework.batch.core.configuration.annotation.JobBuilderFactory;
 import org.springframework.batch.core.configuration.annotation.StepBuilderFactory;
 import org.springframework.batch.repeat.RepeatStatus;
@@ -13,7 +14,9 @@ import org.springframework.context.annotation.Configuration;
 /**
  * Created by thanu on 11-07-2017.
  */
-@Configuration
+//TODO uncomment below
+//@Configuration
+//@EnableBatchProcessing
 public class StepTransitionJobConfiguration {
 
     @Autowired

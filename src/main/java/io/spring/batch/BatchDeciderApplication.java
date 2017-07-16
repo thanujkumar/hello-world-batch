@@ -5,12 +5,12 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 /**
- * Created by thanu on 11-07-2017.
+ * Created by thanu on 16-07-2017.
  */
 @SpringBootApplication
-public class TransitionsApplication {
-
+@EnableBatchProcessing
+public class BatchDeciderApplication {
     public static void main(String[] args) {
-        SpringApplication.run(TransitionsApplication.class, args);
+        SpringApplication.run(BatchDeciderApplication.class, args);
     }
 }

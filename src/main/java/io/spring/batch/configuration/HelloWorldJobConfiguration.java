@@ -25,7 +25,7 @@ import java.sql.SQLException;
 /**
  * Created by thanuj on 11-07-2017.
  */
-//TODO commented to run different example
+//TODO commented to run different example, uncomment when running HelloWordApplication
 //@Configuration
 //@EnableBatchProcessing
 public class HelloWorldJobConfiguration {
